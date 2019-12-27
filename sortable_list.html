@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sortable</title>
+     <title>The Materialize Example</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <!--  style modeules  here -->
+       <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+</head>
+<body>
+
+ <div class="container">
+       <!-- Sortable elements -->
+         <div class="row">
+                <div class="col s12 m4">
+                         <ul  id="sortable" class="collection with-header">
+                            <li class="collection-header white darken-1"><h4>First Names</h4></li>
+                            <li class="collection-item grey lighten-2"><div>Element A<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item teal lighten-2"><div>Element B<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item blue lighten-2 "><div>Element C<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item red lighten-2"><div>Element D<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                          </ul>
+                </div>
+         </div>
+ </div>
+
+
+ <!-- JavasScript modules -->
+  <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+   <!-- JS, jQ scripts here -->
+  <script>
+      $("#sortable").sortable();
+  </script>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>CompCom</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<style>
+.material-tooltip
+{
+    padding: 10px 8px;
+    font-size: 1rem;
+    z-index: 2000;
+    background-color: transparent;
+    border-radius: 5px 10px;
+    color: #fff;
+    min-height: 36px;
+    line-height: 120%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    max-width: calc(100% - 4px);
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    visibility: hidden;
+    background-color: purple;
+    margin-left: 50px;
+}
+  </style>
+   </head>
+
+   <body>
+      <nav class="grey lighten-2" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo green-text tooltipped"cdata-position="bottom"
+                                     data-tooltip="Company logo">  <i class="material-icons">location_city</i>CompCom</a>
+          <ul class="right hide-on-med-and-down">
+                  <li><a href="/"><i class="material-icons tooltipped"cdata-position="bottom"
+                                     data-tooltip="Home">home</i></a></li>
+                  <li><a href="login"><i class="material-icons tooltipped green-text"cdata-position="bottom"
+                                     data-tooltip="Login">account_circle</i></a></li>
+                  <li><a href="logout"><i class="material-icons tooltipped black-text"cdata-position="bottom"
+                                     data-tooltip="Logout">close</i></a></li>
+                  <li><a href="welcome"><i class="material-icons tooltipped"cdata-position="bottom"
+                                     data-tooltip="Welcome">accessibility</i></a></li>
+                  <li><a href="date"><i class="material-icons tooltipped green-text" cdata-position="bottom"
+                                     data-tooltip="Date">date_range</i></a></li>
+                  <li> <a class='dropdown-trigger btn green tooltipped' cdata-position="bottom" data-tooltip="Select Cases" href='#' data-target='dropdown1'>Choose</a> </li>
+                  <li><a href="#!"><i class="material-icons tooltipped green-text" cdata-position="bottom"
+                                      data-tooltip="Settings">menu</i></a></li>
+
+                <!-- Dropdown Structure -->
+                  <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Case A</a></li>
+                    <li><a href="#!">Case B</a></li>
+                    <li><a href="#!">Case C</a></li>
+                    <li><a href="#!">Case D</a></li>
+                    <li><a href="#!">Case E</a></li>
+                    <li><a href="#!">Case F</a></li>
+                  </ul>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+      <br><br><br>
+
+     <div class="container">
+            <div class = "card-panel green center white-text lighten-2">
+                <h3>Welcome to <b>CompCom</b></h3>
+                <div class="white-text bold">
+                    <p> - &nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    <i class="material-icons medium tooltipped white-text" cdata-position="bottom"
+                                      data-tooltip="You are welcome">devices</i>
+                </div>
+            </div>
+     </div>
+
+     <div class="container">
+            <div class="section">
+
+
+                  <!--   Icon Section   -->
+                  <div class="row ">
+                    <div class="col s12 m4">
+                        <div class="card-panel ">
+                      <div class="icon-block">
+                        <h2 class="center teal-text"><i class="material-icons  ">flash_on</i></h2>
+                        <h5 class="center">Cras dapibus</h5>
+
+                        <p class="light">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.. .  </p>
+                      </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card-panel ">
+                      <div class="icon-block">
+                        <h2 class="center teal-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">Quisque rutrum</h5>
+
+                        <p class="light">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+                      </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card-panel ">
+                      <div class="icon-block">
+                        <h2 class="center teal-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Aenean massa.</h5>
+
+                        <p class="light">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. </p>
+                      </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+              <div class="container">
+                   <div class = "card-panel green left  white-text lighten-2">
+                       Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                   </div>
+              </div>
+
+                    <br><br> <br><br>
+     </div>
+
+       <footer class="page-footer grey lighten-2">
+            <div class="container">
+                  <div class="row">
+                        <div class="col l2 s12">
+                          <!--<h6 class="white-text">Our mission </h6> -->
+                          <p class="white-text  text-lighten-4">Aenean imperdiet. </p>
+                        </div>
+                        <div class="col l5 s12">
+                          <!--<h6 class="white-text">Settings</h6>-->
+                          <ul>
+                            <li><a class="white-text" href="#!"></a>Etiam sit amet orci eget eros faucibus tincidunt</li>
+                            <li><a class="white-text" href="#!"></a>Phasellus viverra nulla ut metus varius laoreet. </li>
+                            <li><a class="white-text" href="#!"y></a>Sed fringilla mauris sit amet nibh. </li>
+                          </ul>
+                        </div>
+                        <div class="col l5 s12">
+                          <!--  <h6 class="white-text">Connect</h6>-->
+                          <ul>
+                          <li><a class="white-text" href="#!">Aenean vulputate eleifend tellus.</a></li>
+                           <li><a class="white-text" href="#!"> Quisque rutrum.</a></li>
+                          <li><a class="white-text" href="#!">Sed fringilla mauris sit amet nibh.</a></li>
+                          </ul>
+                        </div>
+                  </div>
+            </div>
+            <div class="footer-copyright">
+
+               <div class="container">
+              Made by <a class="grey-text text-lighten-3" href="#">DUMMY TEXT - 2019</a>
+              </div>
+            </div>
+       </footer>
+
+<!-- JavasScript modules -->
+          <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+           <!-- JS, jQ scripts here -->
+
+          <script>
+            (function($){
+              $(function(){
+                $('.dropdown-trigger').dropdown();
+           }); // end of document ready
+        })(jQuery); // end of jQuery name space
+        </script>
+
+
+   </body>
+</html>
+
+
