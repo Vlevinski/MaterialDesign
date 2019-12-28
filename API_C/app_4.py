@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from API_4.models import  db, User
+from API_C.models import  db, User
 app = Flask(__name__)
 
 POSTGRES = {
@@ -10,8 +10,7 @@ POSTGRES = {
  'port': '5432',
 }
 app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:\
-%(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:%(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES
 db.init_app(app)
 
 @app.route('/')
