@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <title>Sortable</title>
+     <title>The Materialize Example</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <!--  style modeules  here -->
+       <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+</head>
+<body>
+ <div class="container">
+      <!-- Sortable elements -->
+      <div class="row">
+          <h4 class="center"> Sortable cards. Drag and move.</h4>
+           <div class="col s12 m4">
+                    <!--<div class="card-columns"> -->
+
+                  <div class="sortable">
+                        <div class = "card-panel orange lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel grey lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel purple lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel yellow lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+           </div>
+
+           <div class="col s12 m4">
+                  <div class="sortable">
+                        <div class = "card-panel blue lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel brown lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel orange lighten-2">
+                             <i class="material-icons left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+           </div>
+
+           <div class="col s12 m4">
+                  <div class="sortable">
+                        <div class = "card-panel indigo lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+                  <div class="sortable">
+                        <div class = "card-panel lime lighten-2">
+                             <i class="material-icons  left large">chrome_reader_mode</i>
+                            <h4> Hello World!</h4>
+                            <h6> You are Welcome</h6>
+                        </div>
+                  </div>
+           </div>
+       </div>
+ </div>
+
+ <!-- JavasScript modules -->
+  <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+   <!-- JS, jQ scripts here -->
+ <script>
+     $(".sortable").sortable({connectWith: 'div'});
+ </script>
+
+</div>
+</body>
+</html>
